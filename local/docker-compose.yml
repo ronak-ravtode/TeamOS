@@ -1,0 +1,17 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: teamos-postgres
+    restart: always
+    environment:
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: postgrespassword
+      POSTGRES_DB: teamos
+    ports:
+      - "5432:5432"
+    volumes:
+      - teamos_pg_data:/var/lib/postgresql/data
+
+volumes:
+  teamos_pg_data:
+
