@@ -1,0 +1,222 @@
+.env.example
+  h_c5a3d01edfee72 1-17
+.gitignore
+  h_c5a3d01edfee72 1-35
+README.md
+  h_c5a3d01edfee72 1-95
+apps/api/nodemon.json
+  h_c5a3d01edfee72 1-7
+apps/api/package.json
+  h_c5a3d01edfee72 1-57
+apps/api/prisma/schema.prisma
+  h_c5a3d01edfee72 1-207
+apps/api/prisma/seed.ts
+  h_c5a3d01edfee72 1-405
+apps/api/src/app.ts
+  h_c5a3d01edfee72 1-43
+apps/api/src/config.ts
+  h_c5a3d01edfee72 1-23
+apps/api/src/controllers/auth.controller.ts
+  h_c5a3d01edfee72 1-236
+apps/api/src/controllers/comments.controller.ts
+  h_c5a3d01edfee72 1-158
+apps/api/src/controllers/dashboard.controller.ts
+  h_c5a3d01edfee72 1-167
+apps/api/src/controllers/members.controller.ts
+  h_c5a3d01edfee72 1-249
+apps/api/src/controllers/projects.controller.ts
+  h_c5a3d01edfee72 1-396
+apps/api/src/controllers/tasks.controller.ts
+  h_c5a3d01edfee72 1-454
+apps/api/src/controllers/teams.controller.ts
+  h_c5a3d01edfee72 1-302
+apps/api/src/controllers/workspaces.controller.ts
+  h_c5a3d01edfee72 1-161
+apps/api/src/db/prisma.ts
+  h_c5a3d01edfee72 1-13
+apps/api/src/middleware/auth.middleware.ts
+  h_c5a3d01edfee72 1-75
+apps/api/src/middleware/error.middleware.ts
+  h_c5a3d01edfee72 1-30
+apps/api/src/middleware/workspace.middleware.ts
+  h_c5a3d01edfee72 1-109
+apps/api/src/routes/auth.routes.ts
+  h_c5a3d01edfee72 1-15
+apps/api/src/routes/comments.routes.ts
+  h_c5a3d01edfee72 1-13
+apps/api/src/routes/dashboard.routes.ts
+  h_c5a3d01edfee72 1-12
+apps/api/src/routes/members.routes.ts
+  h_c5a3d01edfee72 1-16
+apps/api/src/routes/projects.routes.ts
+  h_c5a3d01edfee72 1-17
+apps/api/src/routes/tasks.routes.ts
+  h_c5a3d01edfee72 1-22
+apps/api/src/routes/teams.routes.ts
+  h_c5a3d01edfee72 1-17
+apps/api/src/routes/workspaces.routes.ts
+  h_c5a3d01edfee72 1-39
+apps/api/src/server.ts
+  h_c5a3d01edfee72 1-54
+apps/api/test/api.e2e-spec.ts
+  h_c5a3d01edfee72 1-633
+apps/api/test/jest-e2e.json
+  h_c5a3d01edfee72 1-10
+apps/api/tsconfig.json
+  h_c5a3d01edfee72 1-15
+apps/api/tsconfig.tsbuildinfo
+  h_c5a3d01edfee72 1
+apps/web/e2e/workflows.spec.ts
+  h_c5a3d01edfee72 1-165
+apps/web/index.html
+  h_c5a3d01edfee72 1-17
+apps/web/package.json
+  h_c5a3d01edfee72 1-44
+apps/web/playwright.config.ts
+  h_c5a3d01edfee72 1-33
+apps/web/postcss.config.js
+  h_c5a3d01edfee72 1-7
+apps/web/src/App.tsx
+  h_c5a3d01edfee72 1-74
+apps/web/src/api/client.ts
+  h_c5a3d01edfee72 1-69
+apps/web/src/components/auth/ProtectedRoute.tsx
+  h_c5a3d01edfee72 1-68
+apps/web/src/components/projects/CreateProjectModal.tsx
+  h_c5a3d01edfee72 1-174
+apps/web/src/components/tasks/CreateTaskModal.tsx
+  h_c5a3d01edfee72 1-227
+apps/web/src/components/tasks/KanbanBoard.tsx
+  h_c5a3d01edfee72 1-213
+apps/web/src/components/tasks/TaskDetailModal.tsx
+  h_c5a3d01edfee72 1-465
+apps/web/src/components/tasks/TaskListView.tsx
+  h_c5a3d01edfee72 1-240
+apps/web/src/components/ui/Avatar.tsx
+  h_c5a3d01edfee72 1-58
+apps/web/src/components/ui/Badge.tsx
+  h_c5a3d01edfee72 1-86
+apps/web/src/components/ui/Button.tsx
+  h_c5a3d01edfee72 1-50
+apps/web/src/components/ui/ConfirmDialog.tsx
+  h_c5a3d01edfee72 1-56
+apps/web/src/components/ui/EmptyState.tsx
+  h_c5a3d01edfee72 1-34
+apps/web/src/components/ui/Input.tsx
+  h_c5a3d01edfee72 1-47
+apps/web/src/components/ui/LoadingSpinner.tsx
+  h_c5a3d01edfee72 1-12
+apps/web/src/components/ui/Modal.tsx
+  h_c5a3d01edfee72 1-68
+apps/web/src/components/ui/ProgressBar.tsx
+  h_c5a3d01edfee72 1-37
+apps/web/src/components/workspace/CreateWorkspaceModal.tsx
+  h_c5a3d01edfee72 1-82
+apps/web/src/context/AuthContext.tsx
+  h_c5a3d01edfee72 1-102
+apps/web/src/context/WorkspaceContext.tsx
+  h_c5a3d01edfee72 1-113
+apps/web/src/index.css
+  h_c5a3d01edfee72 1-30
+apps/web/src/layouts/AppLayout.tsx
+  h_c5a3d01edfee72 1-193
+apps/web/src/layouts/AuthLayout.tsx
+  h_c5a3d01edfee72 1-28
+apps/web/src/main.tsx
+  h_c5a3d01edfee72 1-11
+apps/web/src/pages/auth/LoginPage.tsx
+  h_c5a3d01edfee72 1-195
+apps/web/src/pages/auth/RegisterPage.tsx
+  h_c5a3d01edfee72 1-202
+apps/web/src/pages/dashboard/DashboardPage.tsx
+  h_c5a3d01edfee72 1-312
+apps/web/src/pages/members/MembersPage.tsx
+  h_c5a3d01edfee72 1-328
+apps/web/src/pages/onboarding/MemberWelcomePage.tsx
+  h_c5a3d01edfee72 1-138
+apps/web/src/pages/onboarding/OnboardingPage.tsx
+  h_c5a3d01edfee72 1-127
+apps/web/src/pages/profile/ProfilePage.tsx
+  h_c5a3d01edfee72 1-111
+apps/web/src/pages/projects/ProjectDetailPage.tsx
+  h_c5a3d01edfee72 1-235
+apps/web/src/pages/projects/ProjectsPage.tsx
+  h_c5a3d01edfee72 1-179
+apps/web/src/pages/settings/WorkspaceSettingsPage.tsx
+  h_c5a3d01edfee72 1-176
+apps/web/src/pages/tasks/MyTasksPage.tsx
+  h_c5a3d01edfee72 1-68
+apps/web/src/pages/teams/TeamsPage.tsx
+  h_c5a3d01edfee72 1-362
+apps/web/src/test/Badge.spec.tsx
+  h_c5a3d01edfee72 1-38
+apps/web/src/test/LoginPage.spec.tsx
+  h_c5a3d01edfee72 1-47
+apps/web/src/test/ProgressBar.spec.tsx
+  h_c5a3d01edfee72 1-20
+apps/web/src/test/setup.ts
+  h_c5a3d01edfee72 1-2
+apps/web/src/vite-env.d.ts
+  h_c5a3d01edfee72 1-2
+apps/web/tailwind.config.js
+  h_c5a3d01edfee72 1-27
+apps/web/test-results/.last-run.json
+  h_c5a3d01edfee72 1-11
+apps/web/test-results/workflows-Team-OS-End-to-E-05f1d-ent-isolated-workspace-data/error-context.md
+  h_c5a3d01edfee72 1-256
+apps/web/test-results/workflows-Team-OS-End-to-E-28d1f-tings-and-archived-projects/error-context.md
+  h_c5a3d01edfee72 1-233
+apps/web/test-results/workflows-Team-OS-End-to-E-7b6a1-updates-status-and-comments/error-context.md
+  h_c5a3d01edfee72 1-278
+apps/web/test-results/workflows-Team-OS-End-to-E-93084-creates-an-Engineering-team/error-context.md
+  h_c5a3d01edfee72 1-250
+apps/web/test-results/workflows-Team-OS-End-to-E-a2abf-ws-dashboard-progress-as-0-/error-context.md
+  h_c5a3d01edfee72 1-278
+apps/web/test-results/workflows-Team-OS-End-to-E-ac31a-e-and-reaches-the-dashboard/error-context.md
+  h_c5a3d01edfee72 1-214
+apps/web/tsconfig.json
+  h_c5a3d01edfee72 1-21
+apps/web/vite.config.ts
+  h_c5a3d01edfee72 1-22
+docs/architecture.md
+  h_c5a3d01edfee72 1-130
+docs/database-schema.md
+  h_c5a3d01edfee72 1-177
+docs/supabase-schema.sql
+  h_c5a3d01edfee72 1-278
+docs/supabase-setup.md
+  h_c5a3d01edfee72 1-133
+local/docker-compose.yml
+  h_c5a3d01edfee72 1-17
+package-lock.json
+  h_c5a3d01edfee72 1-10394
+package.json
+  h_c5a3d01edfee72 1-27
+packages/shared/package.json
+  h_c5a3d01edfee72 1-22
+packages/shared/src/enums.ts
+  h_c5a3d01edfee72 1-27
+packages/shared/src/index.ts
+  h_c5a3d01edfee72 1-3
+packages/shared/src/types.ts
+  h_c5a3d01edfee72 1-129
+packages/shared/tsconfig.json
+  h_c5a3d01edfee72 1-15
+scratch/test-connect.js
+  h_c5a3d01edfee72 1-41
+scratch/verify-all.js
+  h_c5a3d01edfee72 1-488
+tsconfig.base.json
+  h_c5a3d01edfee72 1-14
+---
+{
+  "schema_version": "authorship/3.0.0",
+  "git_ai_version": "1.7.5",
+  "base_commit_sha": "4226b947832226bdbd8dab0e7cc4c479840b9b44",
+  "prompts": {},
+  "humans": {
+    "h_c5a3d01edfee72": {
+      "author": "ronak-ravtode <ronakravtode001@gmail.com>"
+    }
+  }
+}
